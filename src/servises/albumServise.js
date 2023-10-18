@@ -1,4 +1,4 @@
-import {axiosServise} from "./axiosServise";
+import {axiosServise} from "./axiosService";
 import {urls} from "../constants/urls";
 
 

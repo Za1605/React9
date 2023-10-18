@@ -1,9 +1,9 @@
-import {axiosServise} from "./axiosServise";
+import {axiosService} from "./axiosService";
 import {urls} from "../constants/urls";
 
 
 const todoService = {
-    getAll:() => axiosServise.get(urls.todos)
+    getAll:() => axiosService.get(urls.todos)
 
 }
 

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {todoService} from "../../servises/todoService";
-import todo from "./Todo";
+
 import Todo from "./Todo";
 
 const Todos = () => {

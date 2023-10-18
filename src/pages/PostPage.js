@@ -1,9 +1,10 @@
 import React from 'react';
+import PostContainer from "../components/PostContainer/PostContainer";
 
 const PostPage = () => {
     return (
         <div>
-            PostPage
+            <PostContainer/>
         </div>
     );
 };
