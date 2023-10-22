@@ -1,11 +1,14 @@
+import posts from "./components/PostsContainer/Posts";
+
 import React from 'react';
+import Posts from "./components/PostsContainer/Posts";
 
 const App = () => {
-  return (
-      <div>
-        app
-      </div>
-  );
+    return (
+        <div>
+            <Posts/>
+        </div>
+    );
 };
 
 export default App;
