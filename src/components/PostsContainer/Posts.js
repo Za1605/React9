@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {postServise} from "../../Servises/postServise";
-import {post} from "axios";
+
 import Post from "./Post";
 
 const Posts = () => {
@@ -15,4 +15,4 @@ const Posts = () => {
     );
 };
 
-export  {Posts};
+export  Posts;

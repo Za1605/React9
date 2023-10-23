@@ -1,4 +1,4 @@
-import posts from "./components/PostsContainer/Posts";
+
 
 import React from 'react';
 import Posts from "./components/PostsContainer/Posts";
