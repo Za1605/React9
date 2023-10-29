@@ -11,7 +11,7 @@ postServise.getAll().then(({data}) => setPosts(data))
     }, [])
     return (
         <div>
-            <PostForm/>
+            <PostForm setPosts = {setPosts}/>
             <br/>
             <Posts posts = {posts}/>
 
